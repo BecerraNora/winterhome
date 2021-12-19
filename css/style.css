@@ -6,7 +6,7 @@
 
 html {
     font-size: 62.5%;
-    box-sizing: border-box; /* Acondicionamiento para box model */
+    box-sizing: border-box;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -29,17 +29,17 @@ h3 {
     font-size: 1.8rem;
 }
 
-.contenedor {
-    max-width: 90rem;
-    margin: 0 auto;
-}
-
 .contenedor2 {
-    max-width: 40rem;
+    max-width: 140rem;
     margin: 0 auto;
 }
 
 .contenedor3 {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.contenedor4 {
     max-width: 60rem;
     margin: 0 auto;
 }
