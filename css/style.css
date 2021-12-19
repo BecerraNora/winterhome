@@ -1,0 +1,67 @@
+:root {
+    --primario: rgba(112,193,179,0.70);
+
+    --fuenteprincipal: 'Staatliches', cursive;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Acondicionamiento para box model */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--primario);
+    font-size: 16px;
+    font-family: var(--fuenteprincipal);
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+
+.contenedor {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.contenedor2 {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.contenedor3 {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+  
+.sombra {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(89,88,89,0.67);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(89,88,89,0.67);
+    box-shadow: 0px 5px 15px 0px rgba(89,88,89,0.67);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto2 {
+    text-align: left;
+}
+
+.texto3 {
+    text-decoration: none;
+    color: black;
+}
