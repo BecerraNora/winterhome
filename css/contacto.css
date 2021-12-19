@@ -1,0 +1,125 @@
+:root {
+    --blanco: #fbfbfb;
+    --primariocontacto: rgba(112, 131, 193, 0.7);
+    --negro: black;
+}
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: var(--blanco); 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: var(--blanco); 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: var(--primariocontacto); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: var(--blanco); 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: var(--primariocontacto); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: var(--primariocontacto); 
+    border-color: var(--primariocontacto); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: var(--blanco); 
+  }
+  
+  
+  span{
+    color: var(--primariocontacto); 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: var(--negro);  
+  }
+  
+  .h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: var(--primariocontacto);
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: var(--negro);   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: var(--negro); 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: var(--blanco);
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: var(--blanco);
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
