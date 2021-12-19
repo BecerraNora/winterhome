@@ -1,5 +1,5 @@
 export const navbar = `
-<div class="nav-bg">
+    <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
             <a href="../index.html">Inicio</a>
             <a href="../views/lugares_visitar.html">Lugares a Visitar</a>
